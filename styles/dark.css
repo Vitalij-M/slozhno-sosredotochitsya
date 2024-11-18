@@ -32,8 +32,8 @@
   font-family: var(--main-font-family, sans-serif);
   position: absolute;
   text-transform: uppercase;
-  inset-inline-end: 38px;
-  inset-block-start: 10px; 
+  inset-inline-end: calc(var(--main-gap) + 18px);
+  inset-block-start: var(--main-gap);  
     }
 
 @media (prefers-color-scheme: dark) {
