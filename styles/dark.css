@@ -21,7 +21,8 @@
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
-    
+    background-color: var(--bg-color);
+    background-repeat: no-repeat;
 
 }
 
@@ -60,4 +61,10 @@
    
 
   
+}
+
+@media (width >= 768px) {
+  .theme_dark .header_rec {
+    inset-inline-end: calc(var(--main-gap) + 8px);
+    inset-block-start: calc(var(--main-gap) + 2px);  
 }
