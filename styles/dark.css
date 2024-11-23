@@ -16,6 +16,8 @@
   --decoration-element-color: #ff0070;
   --theme-color: #ff0070;
   --text-color: #000028;
+  --article-text-color: #f1b2ce;
+  --link-decor-color: #f1b2ce;
   background-image: url(../images/cover-image-dark.png);
   background-position: center;
   background-size: cover;
@@ -28,7 +30,7 @@
   display: block;
   color: var(--accent-color);
   font-size: var(--main-font-size);
-  font-family: var(--main-font-family, sans-serif);
+  font-family: var(--main-font-family, "IBM Plex Mono", monospace);
   position: absolute;
   text-transform: uppercase;
   inset-inline-end: calc(var(--main-gap) + 18px);
@@ -44,6 +46,8 @@
     --decoration-element-color: #ff0070;
     --theme-color: #ff0070;
     --text-color: #000028;
+    --article-text-color: #f1b2ce;
+    --link-decor-color: #f1b2ce;
   }
 
   .page {

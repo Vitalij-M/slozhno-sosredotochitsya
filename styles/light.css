@@ -13,13 +13,15 @@
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
-  --accent-color: transparent;
+  --accent-color: #ff8dcb;
   --title-decor-color: #ff8dcb;
   --text-color: #353430;
   --header-title-color: #ffc2e6;
   --theme-color: #ff8dcb;
   --decoration-element-color: #353430;
   --menu-button-text-color: #353430;
+  --article-text-color: #353430;
+  --link-decor-color: #353430;
 }
 
 .theme_light .header_rec {
@@ -28,13 +30,15 @@
 
 @media (prefers-color-scheme: light) {
   :root {
-    --accent-color: red;
+    --article-text-color: #353430;
+    --accent-color: #ff8dcb;
     --title-decor-color: #ff8dcb;
     --text-color: #353430;
     --header-title-color: #ffc2e6;
     --theme-color: #ff8dcb;
     --decoration-element-color: #353430;
     --menu-button-text-color: #353430;
+    --link-decor-color: #353430;
   }
 
   .page {

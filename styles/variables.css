@@ -10,10 +10,10 @@
     --text-color: #000028;
     --header-title-color: #db00ff;
     --theme-color: #ff0070;
-    --description-color: #F1B2ce;
+    --link-decor-color: #F1B2ce;
     --article-text-color: #F1B2ce;
     --main-font-size: 18px;
-    --main-font-family: 'IBM Plex mono';
+    --main-font-family: "IBM Plex Mono", monospace);
     --main-gap: 10px;
     --text-color: #000028;
     --bg-color: #000028;
