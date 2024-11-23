@@ -1,1 +1,1 @@
-https://github.com/Vitalij-M/lozhno-sosredotochitsya
+https://github.com/Vitalij-M/slozhno-sosredotochitsya
